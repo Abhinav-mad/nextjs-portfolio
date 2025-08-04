@@ -65,7 +65,7 @@ This portfolio can be easily deployed on [Vercel](https://vercel.com/) or [Netli
 
 ## 📬 Contact
 
-Feel free to reach out via [LinkedIn]([https://www.linkedin.com/](https://www.linkedin.com/in/abhinav-mad4/)) or the contact links in the site.
+Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/abhinav-mad4/) or the contact links in the site.
 
 ---
 
