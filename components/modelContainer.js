@@ -16,6 +16,7 @@ export const ModelSpinner = () => (
 
 
 // Container for the 3D model
+// eslint-disable-next-line react/display-name
 export const ModelContainer = forwardRef(({ children }, ref) => (
     <Box
     ref={ref}

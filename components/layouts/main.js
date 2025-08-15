@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import { Box, Container } from "@chakra-ui/react";
 import Head from "next/head";
