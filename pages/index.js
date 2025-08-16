@@ -74,18 +74,23 @@ export default function Home() {
           <Heading as={"h4"} variant={"section-title"}>
             About me
           </Heading>
-          <Paragraph>
-            I’m a full-stack developer with a passion for building scalable,
-            efficient, and future-ready web applications. Whether it's crafting
-            sleek front-end interfaces with <Highlight>React.js</Highlight> or
-            engineering robust back-end systems using{" "}
-            <Highlight>Node.js</Highlight> and <Highlight>Next.js</Highlight>, I
-            thrive on turning complex challenges into simple, dynamic solutions.
-            Solving real-world problems through code is my expertise, and I’m
-            all about creating web experiences that are not only powerful but
-            seamless.From planning and designing to deployment and maintenance,
-            I enjoy every step of the development journey
-          </Paragraph>
+ <Paragraph>
+  I’m a passionate full-stack developer dedicated to building scalable, 
+  efficient, and future-ready web applications. From crafting sleek, 
+  responsive interfaces with <Highlight>React.js</Highlight>, 
+  <Highlight>TypeScript</Highlight>, and <Highlight>Fluent UI</Highlight> 
+  to architecting robust back-end systems using 
+  <Highlight>Node.js</Highlight>, <Highlight>Next.js</Highlight>, 
+  and <Highlight>Express</Highlight>, I love turning complex challenges 
+  into intuitive, high-impact solutions. My experience also includes working 
+  with <Highlight>MongoDB</Highlight>, <Highlight>REST APIs</Highlight>, 
+  <Highlight>Azure</Highlight>, and <Highlight>SharePoint</Highlight> 
+  integrations, ensuring seamless performance across the stack. 
+  From ideation and design to deployment and long-term maintenance, 
+  I thrive on every stage of the development lifecycle — transforming 
+  ideas into reality through clean, reliable, and purposeful code.
+</Paragraph>
+
           <Box align="center" my={4}>
             <Button
               href="/works"

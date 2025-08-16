@@ -52,10 +52,10 @@ const Works = () => {
             <WorksGridItem
               title="Stream Chat"
               thumbnail="/PantachatChatpage.png"
-              github=" real-time chat app with room functionality and YouTube video streaming."
+              github="https://github.com/Abhinav-mad/hello"
               site="#"
             >
-              .
+               real-time chat app with room functionality and YouTube video streaming.
             </WorksGridItem>
           </Section>
         </SimpleGrid>
