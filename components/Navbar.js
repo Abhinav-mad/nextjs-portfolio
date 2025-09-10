@@ -31,8 +31,8 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
     as={NextLink}
       href={href}
       p={2}
-      bg={active ? "grassTeal" : undefined}
-      color={active ? "#202023" : inactiveColor}
+      bg={active ? "" : undefined}
+      color={active ? "grassTeal" : inactiveColor}
       target={target}
       _hover={{ bg: useColorModeValue("gray.200", "gray.700") }}
       {...props}
@@ -85,6 +85,12 @@ function Navbar(props) {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
+          <LinkItem
+            href="/blog/mern-clean-architecture-design-patterns"
+            path={path}
+          >
+            Blog
+          </LinkItem>
           <LinkItem href="/resume.pdf" target="_blank" path={path} pl={2}>
             <span
               style={{ display: "inline-flex", alignItems: "center", gap: 5 }}
@@ -111,11 +117,17 @@ function Navbar(props) {
                 <MenuItem href="/works" as={MenuLink}>
                   Work
                 </MenuItem>
+                <MenuItem
+                  href="/blog/mern-clean-architecture-design-patterns"
+                  as={MenuLink}
+                >
+                  Blog
+                </MenuItem>
                 <MenuItem href="/resume.pdf" as={MenuLink} target="_blank">
                   Resume
                 </MenuItem>
               </MenuList>
-            </Menu> 
+            </Menu>
           </Box>
         </Box>
       </Container>

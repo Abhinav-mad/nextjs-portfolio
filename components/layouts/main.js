@@ -14,6 +14,9 @@ const Lazy3DModel = dynamic(() => import('../../lib/model'), {
 });
 
 function main({ children, router }) {
+  const route = router?.asPath || "";
+  const isBlogArticle = route.startsWith("/blog/mern-clean-architecture-design-patterns");
+
   return (
     <Box as="main" pb={8}>
       <Head>
@@ -22,11 +25,18 @@ function main({ children, router }) {
         <title>Abhinav'sDevCanvas</title>
       </Head>
         <Navbar path={router.asPath}/>
-      <Container maxW="container.md" pt={14}  >
-          
-        <Lazy3DModel/>
+      {isBlogArticle ? (
+        // Render children directly, let the blog page handle its own Container
+        <>
+          <Lazy3DModel />
           {children}
-      </Container>
+        </>
+      ) : (
+        <Container maxW="container.md" pt={14}>
+          <Lazy3DModel />
+          {children}
+        </Container>
+      )}
     </Box>
   );
 }
